@@ -1,0 +1,2 @@
+#!/bin/bash
+alias rv=`mv $1 /home/foree/RECOVERY`

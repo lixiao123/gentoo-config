@@ -1,0 +1,6 @@
+#!/bin/bash
+# need program DrClient at ~/bin/DrClient
+#add by foree
+#login DrClient
+/home/foree/bin/DrClient
+
