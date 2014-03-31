@@ -4,3 +4,4 @@ gentoo的配置文件的备份目录
 .fonts/       ======= ~/.fonts
 .Xresources   ======= ~/.Xresources
 .vimperatorrc ======= ~/.vimperatorrc
+.xinitrc      ======= ~/.xinitrc
