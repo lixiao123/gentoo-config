@@ -1,0 +1,87 @@
+!xterm
+!~/.Xresources
+!!英文用系统默认字体，中文用文泉驿正黑，这个配置适合笔记本，屏幕分辨率是1280X800。
+!!look and feel
+xterm.termName: xterm-256color
+!xterm.geometry: 80x36
+xterm*scrollBar: false
+xterm*rightScrollBar: true
+xterm*loginshell: true
+xterm*cursorBlink: false
+xterm*saveLines:  4096
+xterm*background:   black
+xterm*foreground:   gray
+xterm.borderLess: true
+xterm.cursorBlink: true
+xterm*colorUL: yellow
+xterm*colorBD: white
+!
+!!font and locale
+xterm*locale: true
+xterm.utf8:     true
+xterm*utf8Title: true
+xterm*fontMenu*fontdefault*Label: Default
+xterm*faceName:Monospace:antialias=True:pixelsize=15
+xterm*boldFont:Sans:style=Bold:pixelsize=14
+xterm*faceNameDoublesize:WenQuanYi Zen Hei:antialias=True:pixelsize=14
+xterm*xftAntialias: true
+xterm.cjkWidth:true
+XTerm*preeditType: Root 
+xterm*VT100*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+
+!urxvt
+Xft.dpi:96
+URxvt.utf8:     true
+URxvt*utf8Title: true
+URxvt.geometry:90x24
+URxvt.background:black
+URxvt.foreground:white
+URxvt.colorBD:yellow
+URxvt.colorUL:green
+URxvt.color0:black
+URxvt.color1:red3
+URxvt.color2:springgreen
+URxvt.color3:wheat3
+URxvt.color4:navy
+URxvt.color5:magenta4
+URxvt.color6:steelblue1
+URxvt.color7:gray85
+URxvt.color8:gray10
+URxvt.color9:orangered2
+URxvt.color10:chartreuse3
+URxvt.color11:lightgoldenrod2
+URxvt.color12:skyblue1
+URxvt.color13:pink1
+URxvt.color14:lightblue1
+URxvt.scrollBar:False
+URxvt.scrollstyle:next
+URxvt.saveLines:5000
+!URxvt.font:-*-fixed-medium-r-*--18-*-*-*-*-*-iso8859-1,xft:文泉驿等宽正黑:pixelsize=18:antialias=false
+URxvt.prmeditType:Root
+
+
+!aterm
+! Begin ports/chinese/aterm configuration
+aterm.borderColor:              black
+aterm.background:               black
+aterm.backspacekey:             "^H"
+aterm.cursorColor:              IndianRed
+aterm.foreground:               gray98
+aterm.geometry:                 80x24
+aterm.inputMethod:              xcin
+aterm.multichar_encoding:       big5
+aterm.preeditType:              OverTheSpot
+aterm.scrollTtyKeypress:        True
+aterm.scrollTtyOutput:          False
+aterm.scrollBar_right:          True
+aterm.shading:                  30
+aterm.termName:                 xterm-color
+aterm.transparent: True
+aterm.transpscrollbar: True
+aterm.troughColor:              black
+! !您可選擇想要的字體大小
+! ! 國喬 16pt, 國喬 16pt
+aterm.font:                     8x16
+aterm.mfont:                    kc15f
+! ! End ports/chinese/aterm configuartion
