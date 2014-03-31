@@ -1,0 +1,6 @@
+nnoremap j 5j
+nnoremap k 5k
+set hintchars=hjklasdfg
+
+set nextpattern=下一,后一,下页,后页,\bnext,(>|›|>>|››|»)$,更多,\bmore\b  
+set previouspattern=上一,前一,上页,前页,\b(prev|previous)\b,^(<|‹|<<|‹‹|«)
