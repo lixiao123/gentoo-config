@@ -6,3 +6,5 @@ bin/          ======= ~/bin
 .vimperatorrc ======= ~/.vimperatorrc
 .xinitrc      ======= ~/.xinitrc
 .conky/       ======= ~/.conky
+slim.conf     ======= /etc/slim.conf
+xdm       	  ======= /etc/conf.d/xdm
