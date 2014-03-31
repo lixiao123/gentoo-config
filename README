@@ -8,3 +8,4 @@ bin/          ======= ~/bin
 .conky/       ======= ~/.conky
 slim.conf     ======= /etc/slim.conf
 xdm       	  ======= /etc/conf.d/xdm
+40_custom     ======= /etc/grub.d/40_custom
