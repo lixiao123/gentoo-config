@@ -1,7 +1,8 @@
 gentoo的配置文件的备份目录
-/bin          ======= ~/bin
+bin/          ======= ~/bin
 .bashrc       ======= ~/.bashrc
 .fonts/       ======= ~/.fonts
 .Xresources   ======= ~/.Xresources
 .vimperatorrc ======= ~/.vimperatorrc
 .xinitrc      ======= ~/.xinitrc
+.conky/       ======= ~/.conky
