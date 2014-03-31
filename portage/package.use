@@ -1,0 +1,11 @@
+# required by dev-libs/quazip-0.5.1-r1
+# required by media-video/smplayer-0.8.5
+# required by smplayer (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
+>=net-wireless/wpa_supplicant-2.0-r2 ap
+media-video/smplayer linguas_zh_CN
+app-office/wps-office linguas_zh_CN -qt
+app-text/stardict gnome tools
+app-admin/conky apcupsd hddtemp lua-cairo math moc mpd weather-metar weather-xoap wifi
+app-arch/p7zip rar
+app-editors/vim cscope

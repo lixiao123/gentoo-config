@@ -9,3 +9,6 @@ bin/          ======= ~/bin
 slim.conf     ======= /etc/slim.conf
 xdm       	  ======= /etc/conf.d/xdm
 40_custom     ======= /etc/grub.d/40_custom
+make.conf     ======= /etc/portage/make.conf
+package.*     ======= /etc/portage/package.*
+world         ======= /var/lib/portage/world

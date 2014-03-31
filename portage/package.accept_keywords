@@ -1,0 +1,20 @@
+# required by gentoo-sources (argument)
+=sys-kernel/gentoo-sources-3.12.13 ~x86
+# required by bootchart2 (argument)
+=app-benchmarks/bootchart2-0.14.5-r1 ~x86
+# required by b43-firmware (argument)
+=sys-firmware/b43-firmware-5.100.138 ~x86
+# required by awesome
+x11-wm/awesome ~x86
+# required by x11-wm/awesome-3.5.2-r1
+# required by @selected
+# required by @world (argument)
+=x11-libs/xcb-util-cursor-0.1.1 ~x86
+# required by =gentoo-sources-3.12.12 (argument)
+=sys-kernel/gentoo-sources-3.12.12 ~x86
+# required by fcitx-sogoupinyin (argument)
+=app-i18n/fcitx-sogoupinyin-0.0.4 ~x86
+# required by wps-office (argument)
+=app-office/wps-office-9.1.0.4244_alpha12_p3 ~x86
+# required by broadcom-sta (argument)
+=net-wireless/broadcom-sta-6.30.223.141 ~x86
